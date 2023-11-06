@@ -1,0 +1,123 @@
+/* >>>>>>>>>> USER-CAROUSEL <<<<<<<<<< */
+
+.user-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.user-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* >>>>>>>>>> USER-CARD <<<<<<<<<< */
+
+.user-card {
+    border-radius: 8px;
+    border: 2px solid var(--colors-text-text-white, #FBFBFB);
+
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* >>>>> TEXT-CARD <<<<< */
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* >>>>> USER-IMAGE <<<<< */
+
+.user-image {
+    width: 48px;
+    height: 48px;
+}
+
+/* >>>>> USER-NAME <<<<< */
+
+.user-name {
+    color: var(--colors-text-text-white, #FBFBFB);
+
+    /* mobile/body/base-text-mobile */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+/* >>>>> USER-ROL <<<<< */
+
+.user-rol  {
+    color: var(--colors-brand-colors-accent, #BB38F9);
+
+    /* mobile/body/small-text-mobile */
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+/* >>>>>>>>>> MEDIA QUERIES <<<<<<<<<< */
+
+@media (min-width: 769px) {
+
+    /* >>>>>>>>>> USER-CAROUSEL <<<<<<<<<< */
+
+    .user-carousel {
+        gap: 24px;
+        margin-top: 16px;
+    }
+
+    /* >>>>>>>>>> USER-CARD <<<<<<<<<< */
+
+    .user-card {
+        padding: 32px;
+        gap: 12px;
+    }
+
+    /* >>>>> USER-IMAGE <<<<< */
+
+    .user-image {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* >>>>> USER-NAME <<<<< */
+
+    .user-name {
+        color: var(--colors-text-text-white, #FBFBFB);
+
+        /* desktop/body/large-text-desktop */
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 140% */
+    }
+
+    /* >>>>> USER-ROL <<<<< */
+
+    .user-rol  {
+        color: var(--colors-brand-colors-accent, #BB38F9);
+
+        /* desktop/body/small-text-desktop */
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+
+}

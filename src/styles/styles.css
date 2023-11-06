@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://kit.fontawesome.com/51007c3285.css'); 
+
+/* >>>>>>>>>> UNIVERSAL SELECTOR <<<<<<<<<< */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* >>>>>>>>>> STYLES <<<<<<<<<< */
+
+html {
+    background-color: #18082D;
+    color: #FBFBFB;
+
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 16px;
+}
+
+html a {
+    text-decoration: none;
+    color: #FBFBFB;
+}
+
+html li {
+    list-style: none;
+}

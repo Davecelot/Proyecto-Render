@@ -1,0 +1,43 @@
+/* >>>>>>>>>> MOVIES-CAROUSEL <<<<<<<<<< */
+
+.movies-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.movies-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* >>>>> MOVIE-CARD <<<<< */
+
+.movie-card {
+    border-radius: 8px;
+
+    width: 120px;
+    height: 160px;
+}
+
+/* >>>>>>>>>> MEDIA QUERIES <<<<<<<<<< */
+
+@media (min-width: 769px) {
+
+    /* >>>>>>>>>> MOVIES-CAROUSEL <<<<<<<<<< */
+
+    .movies-carousel {
+        gap: 24px;
+        margin-top: 24px;
+    }
+
+    /* >>>>> MOVIE-CARD <<<<< */
+
+    .movie-card {
+        width: 332px;
+        height: 180px;
+}
+}

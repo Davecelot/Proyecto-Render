@@ -1,0 +1,17 @@
+/* >>>>>>>>>> CONTAINER-DASHBOARD <<<<<<<<<< */
+
+.container-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+/* >>>>>>>>>> MEDIA QUERIES <<<<<<<<<< */
+
+@media (min-width: 769px) {
+    
+    .container-dashboard {
+        flex-direction: row;
+    }
+}

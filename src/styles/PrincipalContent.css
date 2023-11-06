@@ -1,0 +1,121 @@
+/* >>>>>>>>>> CONTAINER-CENTER <<<<<<<<<< */
+
+.container-center {
+    border-radius: 16px;
+    background: #280F50;
+
+    display: flex;
+    width: 100%;
+    /* height: 960px; */
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* >>>>> BANNER-MARVEL <<<<< */
+
+.banner-marvel {
+    /* max-height: 328px; */
+    width: 100%;
+    border-radius: 8px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+/* >>>>>>>>>> SECTION <<<<<<<<<< */
+
+.section {
+    width: 100%;
+}
+
+/* >>>>>> SECTION-TOP <<<<< */
+
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+}
+
+.section-top h2 {
+    color: var(--colors-text-text-white, #FBFBFB);
+
+    /* mobile/body/large-text-mobile */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.btn-section-top {
+    border-radius: 4px;
+
+    display: flex;
+    padding: 4px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-section-top p {
+    color: var(--colors-text-text-white, #FBFBFB);
+
+    /* mobile/specials/btn-text */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.056px;
+}
+
+.btn-section-top i {
+    font-size: 16px;
+}
+
+/* >>>>>>>>>> MEDIA QUERIES <<<<<<<<<< */
+
+@media (min-width: 769px) {
+
+    /* >>>>> SECTION-TOP <<<<< */
+
+    .section-top h2 {
+        color: var(--colors-text-text-white, #FBFBFB);
+    
+        /* desktop/body/large-text-desktop */
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 140% */
+    }
+
+    .btn-section-top {
+        border-radius: 4px;
+    
+        display: flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .btn-section-top p {
+        color: var(--colors-text-text-white, #FBFBFB);
+    
+        /* desktop/specials/btn-text */
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 140% */
+    }
+    
+    .btn-section-top i {
+        font-size: 20px;
+    }
+    
+}

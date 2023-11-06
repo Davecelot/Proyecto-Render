@@ -1,0 +1,115 @@
+/* >>>>>>>>>> NAV <<<<<<<<<< */
+
+nav {
+
+    border-radius: 16px;
+    background: #280F50;
+
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    color: var(--colors-text-text-white, #FBFBFB);
+
+    /* desktop/subtitles/subtitle-s-desktop */
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* >>>>> LOGO <<<<< */
+
+.logo {
+    height: 32px;
+    width: auto;
+}
+
+/* >>>>> MENUS <<<<< */
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menus h1 {
+    color: var(--colors-text-text-white, #FBFBFB);
+
+    /* desktop/body/large-text-desktop */
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+}
+
+/* >>>>>> MENU-SECTION <<<<< */
+
+.menu-section {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+/* >>>>> GENERAL-SECTION <<<<< */
+
+.general-section {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+/* >>>>> BURGUER-MENU <<<<< */
+
+.burguer-menu {
+    font-size: 32px;
+}
+
+/* >>>>>>>>>> MEDIA QUERIES <<<<<<<<<< */
+
+@media (min-width: 769px) {
+
+    /* >>>>>>>>>> NAV <<<<<<<<<< */
+
+    nav {
+        padding: 32px;
+        flex-direction: column;
+        /* height: 960px; */
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 80px;
+    }
+
+    /* >>>>> MENU-SECTION <<<<< */
+
+    .menu-section {
+        display: flex;
+    }
+
+    /* >>>>> GENERAL-SECTION <<<<< */
+
+    .general-section {
+        display: flex;
+    }
+
+    /* >>>>> BURGUER-MENU <<<<< */
+
+    .burguer-menu {
+        display: none;
+    }
+}
